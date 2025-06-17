@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Foodtrack</string>
+    <string name="see_all">See All</string>
+    <string name="categories">Categories</string>
+    <string name="promo_banner">Promo Banner</string>
+    <string name="icon_button">Icon Button</string>
+</resources>

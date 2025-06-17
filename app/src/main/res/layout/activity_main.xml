@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="399dp"
+        android:layout_height="520dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/intro_pic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/welcometext"
+        android:layout_width="353dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="40dp"
+        android:text="Welcome To Food App"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image1" />
+
+    <TextView
+        android:id="@+id/deliciousfood"
+        android:layout_width="325dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        android:text="Delicious food, delivered directly to your door,with a smile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="@integer/material_motion_duration_long_2"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcometext"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="166dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#FF4D58"
+        android:padding="12dp"
+        android:text="Signup"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/deliciousfood"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
